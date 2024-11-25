@@ -1,0 +1,57 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1e2a38;  /* Darker blue color */
+    width: 200px;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .content {
+    margin-left: 200px;
+    flex-grow: 1;
+    background-color: rgb(190, 211, 199);
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: #ffffff;  /* Changed to white for better contrast */
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-size: 18px;
+    width: 100%;  /* Make sure the hover effect spans full width */
+  }
+  
+  .icon:hover {
+    background-color: #2d3e50;  /* Slightly lighter shade for hover */
+  }
+  
+  .icon-label {
+    margin-left: 10px;
+    font-weight: 500;
+    color: #ffffff;  /* Ensure text is white */
+  }
+  
+  .icon svg {
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: #ffffff;  /* Ensure icons are white */
+  }
+  
+  /* Add this to ensure active/selected state is visible */
+  .icon.active {
+    background-color: #2d3e50;
+  }

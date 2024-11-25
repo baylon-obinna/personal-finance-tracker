@@ -1,0 +1,35 @@
+.dashboard {
+  padding: 20px;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card {
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-size: 18px;
+  color: #555;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #48a9e6;
+}

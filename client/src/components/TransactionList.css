@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  li {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  li:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .transaction-date,
+  .transaction-category,
+  .transaction-amount {
+    margin: 0;
+  }
+  
+  .transaction-category {
+    font-weight: bold;
+  }
+  
+  .transaction-amount {
+    color: #007bff;
+  }
+  

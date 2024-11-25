@@ -1,0 +1,66 @@
+/* src/components/pages/shared.css */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .error-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff3f3;
+    border: 1px solid #ffcdd2;
+    margin: 20px 0;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  /* Common styles for all pages */
+  .budget-page,
+  .investment-page,
+  .transactions-page {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px;
+  }
+  
+  .budget-list,
+  .investment-list,
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .budget-item,
+  .investment-item,
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .budget-item:last-child,
+  .investment-item:last-child,
+  .transaction-item:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-amount.income {
+    color: #4caf50;
+  }
+  
+  .transaction-amount.expense {
+    color: #f44336;
+  }
